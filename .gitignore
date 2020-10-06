@@ -1,0 +1,15 @@
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.dvi
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.mst
+*.out
+*.xml
+*.toc

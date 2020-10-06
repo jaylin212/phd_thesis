@@ -1,0 +1,75 @@
+% Chapter 1
+
+\chapter{Prologue} % Main chapter title
+
+\label{Chapter0} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+%----------------------------------------------------------------------------------------
+
+% Define some commands to keep the formatting separated from the content 
+\newcommand{\keyword}[1]{\textbf{#1}}
+\newcommand{\tabhead}[1]{\textbf{#1}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\file}[1]{\texttt{\bfseries#1}}
+\newcommand{\option}[1]{\texttt{\itshape#1}}
+
+%----------------------------------------------------------------------------------------
+% - Outline
+% - (skip?) Physics research 3 frontier.
+% - Standard Model
+% - One of unsolved puzzle is matter-antimatter asymmetry. KLpi0nn might be able to explain the mistery if a larger BR is measured than expected.
+% - Kaon physics has been guiding us for many decades and we are hoping it continues providing the hint of new physics.
+
+% !!!! note Apr. 24, 2020
+% lack of citing
+% - KLpi0nn FCNC through s->d transition?
+% - IB 
+% - new DAQ
+% - NP models
+% - transition s->d paper
+% - KLpi0nn & KLpi0gg
+
+% CDT collection Z0 data doubled?
+
+%----------------------------------------------------------------------------------------
+
+% Strategy of physics search
+
+%The particle physics research can be classified based on three approaches: energy, cosmic, and intensity. At the energy frontier, an advanced accelerator and detector are constructed to create particles at high energy scale and measure them directly. At the cosmic frontier, telescopes and detectors are built to browse the particles in the Universe. At the intensity frontier, a huge amount of the particles are generated to measure the ultra-rare processes in nature. The measurement is able to hint the existence of New Physics (NP) if the deviation is observed. Apparently, a process is considered to be appropriate for examination if it is precisely predicted. The two measurements presented in these dissertation, ${K_L^0 \to \pi^0 \nu \overline{\nu}}$ and ${K_L^0 \to \pi^0 \gamma \gamma}$, belong to the intensity frontier.
+
+% Standard model
+%Standard Model (SM) is an elegant theory describing the ingredients of our Universe and the interplay among materials.  ... One of the big puzzles is why  matter-dominant.... 
+%\lipsum[1-2]
+
+% unsolved puzzle, CP symmetry 
+The search for ${K_L^0 \to \pi^0 \nu \overline{\nu}}$ decay potentially provides the clues to the big puzzle of matter-antimatter asymmetry. According to the Big Bang baryogenesis\index{baryogenesis}, in the early Universe, the same amount of the baryons and antibariyons were initially created in thermal equilibrium with the soup of high-energy photons. Then the expansion of the Universe resulted in a low rate of annilhilation processes due to a dramatic drop in temperature. Eventually, the fixed and equal number of baryons and antibaryons in the Universe were expected. This was obviously contradicted with the current observation. In 1967, A.D. Sakharov \parencite{Sakharov} proposed that violation in CP-symmetry was one of the essential conditions leading to the matter-antimatter asymmetry.
+
+Historically, physicists believed that all physics laws would be exactly the same in a mirrored world, which is called P-symmetry (parity symmetry). However, in 1950’s, C.S. Wu and her collaborators observed parity violation in the beta decay of cobalt-60 \parencite{P_violation_exp}, as proposed by T.D. Lee and C.N. Yang \parencite{P_theory}. As a result, an additional C-symmetry (charge symmetry), which replaces each particle with its anti-particle, was introduced to incorporate with P-symmetry so the invariance would be still held. This principle was called CP-symmetry which indicates the physics laws for matter and antimatter are the same.
+
+In 1964, the kaon decay measurement by J. Cronin and V. Fitch revealed the fact that the violation of CP symmetry can occur via the weak interactions in quark sector \parencite{K_CPviolation_exp}. In order to explain the source, in 1973, Kobayashi and Maskawa suggested an elegant theoretical framework in which CP violation \index{CP violation} appears in the mixture of quarks without any modification of Standard Model (SM) \parencite{KM}. The third-generation quarks were the prerequisites for CP violation to take place and their existence were experimentally confirmed. This model is well known as the Kobayashi-Maskawa (KM) mechanism.
+
+However, the amount of baryons derived by KM mechanism is found to be short in comparison of what we have observed. Therefore, there has been an abundance of theories attempting to extend the SM and introducing extra sources to CP violation. Nowadays physicists keep conducting new experiments for examining miscellaneous models and vigorously pursuing the answer to this mystery.  
+
+% KLpi0nn KLpi0gg @ KOTO
+${K_L^0 \to \pi^0 \nu \overline{\nu}}$ is considered to be one of the best probes in understanding the origin of CP violation. This rare decay breaks CP directly and is mediated by flavor-changing neutral current (FCNC). The little intricate interplay with long-distance interactions in SM makes this decay theoretically clean (ref) and sensitive to NP (ref). Moreover, another kaon decay ${K_L^0 \to \pi^0 e^+ e^-}$ provides the physics cross-check to ${K_L^0 \to \pi^0 \nu \overline{\nu}}$ because it shares the same direct CP-violating process except for the the long-distance contributions. In order to obtain the direct CP violating amplitude of ${K_L^0 \to \pi^0 e^+ e^-}$, the indirect CP-violating and the CP-conserving components need to be carried out. Notably, the CP-conserving part can be extrapolated from the decay ${K_L^0 \to \pi^0 \gamma \gamma}$.
+
+
+%%% start from here %%%
+
+% Why KOTO
+The KOTO experiment \parencite{KOTO_intro, KOTO_proposal} at Japan Proton Accelerator Research Complex (J-PARC) \parencite{JPARC_intro} specializes in the search for ${K_L^0 \to \pi^0 \nu \overline{\nu}}$. Due to lack of the kinematic constraints, the background suppression highly relies on the extra particle's detection. The decay region is hence surrounded by the veto detectors. These features also benefit the ${K_L^0 \to \pi^0 \gamma \gamma}$ measurement.
+
+% situation of KOTO: the past, what's new from 2016 in both hardware and software. (indicating where the section appears)
+KOTO began its first operation in 2013. With 100 hours of data taking, KOTO achieved the comparable sensitivity as E391a \parencite{KOTO_2013, KLpi0nn_e391a}, which was the best limit at that time. KOTO further improved the upper limit ${<3.0\times 10^{-9}}$ (90\% C.L.) by an order of magnitude based on the data collected in 2015 \parencite{KOTO_2015}. On the path to the SM sensitivity of ${(3.0 \pm 0.3) \times 10^{-11}}$ \parencite{KLpi0nn_SM}, the upgrades on both hardware and software are desired to control the background better and enable to sense the NP region. From the hardware side, a new cylindrical barrel counter was installed in 2016 to complement detection power of the escaping photons from kaon backgrounds. On the other hand, the shower-cluster-counting trigger was introduced in 2017 to efficiently collect the data that is in line with the increased beam intensity. It not only doubled the collection speed for neutron control samples but also provided the feasibility of other physics topics, such as ${K_L^0 \to \pi^0 \gamma \gamma}$ measurement. From the software side, the hadron-induced cluster background, which was the largest background in the previous result, was further suppressed by the deep learning technology. Also, an algorithm based on the pulses from the detectors was developed to identify if it consists of multiple hits. It prevented the signal overkill caused by the accidental hits in veto counters and thus a better signal acceptance.
+
+%% closure
+Kaons have played the key role in shaping flavor sector and we are hoping it continues guiding us into a whole new chapter in CP violation.
+
+%The contents are organized as follows. Chapter 2 introduces the physics motivation and the measurements from other experiments. Chapter 3 provides the overall introduction of the KOTO experiment approaches, J-PARC facility and the KOTO detector. Chapter 4 reports the motivation, the history, the architecture, and the hardperformance of the KOTO DAQ. Chapter 5 explains how the physics observables like energy and timing extracted from the raw data. Chapter 6 explains the simulation algorithms. Chapter 
+
+
+\lipsum[3-8]
+
+%----------------------------------------------------------------------------------------
+
+
